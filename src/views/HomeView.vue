@@ -1,21 +1,24 @@
 <template>
   <div class="home page">
     <div>
-      <img alt="Vue logo" src="../assets/img/logo.png">
+      <img alt="logo" class="logo" src="../assets/img/logo-bereke.png">
       <router-link class="button__classic" to="/page_1">Оформить отпуск</router-link>
     </div>
   </div>
 </template>
 
 <style lang="scss">
+  .logo {
+    width: 65%;
+  }
   .home {
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    background: linear-gradient(65deg, #d260da, white, #e1a8e6);
+    background: linear-gradient(180deg, #ffffff, #66d3e5);
     background-size: 400% 400%;
-    //animation: gradient 15s ease infinite;
+    animation: gradient 0.2ms ease infinite;
   }
 
   @keyframes gradient {
