@@ -42,13 +42,12 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/recommended",
       "@vue/airbnb"
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",

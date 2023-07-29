@@ -7,4 +7,7 @@ module.exports = defineConfig({
     name: 'hakaton2023',
     manifestCrossorigin: 'use-credentials',
   },
+
+  lintOnSave: false
 });
+
