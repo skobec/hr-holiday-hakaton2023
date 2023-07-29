@@ -67,6 +67,7 @@
         id="iniciator"
         name="iniciator"
         placeholder="Прокоментируйте причину отпуска"
+        v-model="form.comment"
       />
             <label for="iniciator">Причина отпуска</label>
           </div>
@@ -106,7 +107,7 @@ export default {
         middleName: 'Александрович',
         lastName: 'Скобцов',
         dateFrom: '2023-07-06',
-        dateTo: '2023-07-06',
+        dateTo: '2023-07-12',
         number: '1',
         comment: '',
         login: 'Скобцов Р.А.',

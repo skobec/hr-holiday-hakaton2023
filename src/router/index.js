@@ -5,11 +5,11 @@ import HomeView from '../views/HomeView.vue';
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView,
-  },
+  // {
+  //   path: '/',
+  //   name: 'home',
+  //   component: HomeView,
+  // },
   {
     path: '/about',
     name: 'about',
@@ -19,7 +19,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
   },
   {
-    path: '/page_1',
+    path: '/',
     name: 'page_1',
     component: () => import(/* webpackChunkName: "page_1" */ '../views/page_1.vue'),
   },
